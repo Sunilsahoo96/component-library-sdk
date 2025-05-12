@@ -1,0 +1,48 @@
+.ticket-success-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 40px;
+  margin: 0 auto 1.5rem;
+}
+
+.success-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #ff4b2b;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #eee;
+}
+
+.email-note {
+  font-size: 0.95rem;
+  color: #aaa;
+  max-width: 420px;
+  margin: 0 auto 2rem;
+}
+
+.highlight-email {
+  color: #ff4b2b;
+  font-weight: 500;
+}
+
+.ticket-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}

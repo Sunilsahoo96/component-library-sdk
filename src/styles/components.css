@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #4c00b0, #2a0080); /* Dark purple/blue gradient */
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page {
+  background-color: rgba(0, 0, 0, 0.3); /* Optional: Add a semi-transparent overlay for better text readability */
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Typography */
+.heading {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.heading.h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1rem;
+  color: #eee;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.highlight {
+  color: #ff7f50; /* Orange/red highlight */
+  font-weight: bold;
+}
+
+/* Form Layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adjust spacing between form elements */
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* TextInput */
+.text-input label {
+  color: #ccc;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text-input input {
+  padding: 0.8rem 1rem;
+  background-color: #333; /* Dark background for input */
+  border: 1px solid #555;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* FileUploader */
+.file-uploader {
+  padding: 1.5rem;
+  background-color: #222;
+  border: 2px dashed #666; /* More visible dashed border */
+  border-radius: 8px;
+  text-align: center;
+  color: #bbb;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-uploader svg { /* Style for a potential upload icon */
+  width: 30px;
+  height: 30px;
+  fill: #888;
+  margin-bottom: 8px;
+}
+
+/* Button */
+.button {
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #ff7f50, #ff6b6b); /* Orange/red gradient */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+  font-size: 1.1rem;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* TicketCard (Keep this for the success page) */
+.ticket-card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #1b1b2f;
+  border-radius: 12px;
+  border-left: 4px solid #ff5f5f;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 400px;
+}
+
+.ticket-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #333;
+}
+
+.ticket-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-info .name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.ticket-info .github {
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+.ticket-info .meta {
+  font-size: 0.8rem;
+  color: #999;
+}

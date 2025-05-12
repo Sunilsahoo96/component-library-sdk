@@ -1,0 +1,36 @@
+.file-uploader {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: 1.5rem auto;
+  text-align: center;
+  border: 2px dashed #555;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  color: #ddd;
+  box-shadow: 0 0 15px rgba(255, 65, 108, 0.2);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.file-uploader:hover {
+  border-color: #ff4b2b;
+  box-shadow: 0 0 25px rgba(255, 65, 108, 0.4);
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.upload-label:hover {
+  color: #fff;
+}

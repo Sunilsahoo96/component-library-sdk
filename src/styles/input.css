@@ -1,0 +1,35 @@
+.input-group {
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-label {
+  color: #ccc;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.text-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-input::placeholder {
+  color: #888;
+}
+
+.text-input:focus {
+  border: 1px solid #ff4b2b;
+  box-shadow: 0 0 10px rgba(255, 65, 108, 0.3);
+}

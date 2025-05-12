@@ -1,0 +1,62 @@
+.ticket-card {
+  width: 460px;
+  background: linear-gradient(145deg, #1c1228, #2a1743);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: 'JetBrains Mono', monospace;
+  box-shadow: 0 0 20px rgba(255, 75, 43, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ticket-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(255, 75, 43, 0.3);
+}
+
+.ticket-left {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.ticket-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #ff4b2b;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(255, 75, 43, 0.5);
+}
+
+.ticket-info h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ticket-info p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.ticket-right {
+  text-align: right;
+}
+
+.ticket-right p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #eee;
+}
+
+.ticket-right p:first-child {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
